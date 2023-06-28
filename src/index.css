@@ -56,6 +56,10 @@ img {
   background-color: #2c2c2c;
   display: flex;
   flex-direction: column;
+  width: 500px;
+  float: left;
+  padding: 10px;
+  
 }
 .product__img {
 }
@@ -71,10 +75,12 @@ img {
   font-size: 0.8rem;
   color: white;
   font-family: fantasy;
+  height: 80px;
 }
 .product__title {
   color: white;
   font-family: 'Roboto', sans-serif;
+  height: 30px;
 }
 .product__price {
   color: orange;
@@ -92,4 +98,7 @@ img {
   .products {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
+}
+p{
+  color: burlywood;
 }
